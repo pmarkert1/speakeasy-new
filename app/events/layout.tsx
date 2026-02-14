@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import Header from "../_components/Header";
 import Nav from "../_components/Nav";
+import { events } from "@/lib/events";
 
 export default function EventsLayout({
   children,
@@ -33,7 +34,8 @@ export default function EventsLayout({
       {/* NAV */}
       {isEventPage && (
         <div
-          className={`w-full h-full
+          className={`fixed top-0 left-0 h-full w-full
+            bg-black z-40
             transition-transform duration-500 ease-in-out
             ${navOpen ? "translate-x-0" : "-translate-x-full"}
           `}
@@ -43,7 +45,7 @@ export default function EventsLayout({
       )}
 
       {/* PAGE CONTENT */}
-      <main className="pt-20 p-10">{children}</main>
+      <main className="pt-20 p-10">{}</main>
     </div>
   );
 }
