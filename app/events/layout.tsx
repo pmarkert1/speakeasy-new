@@ -1,0 +1,49 @@
+"use client";
+
+import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
+import Header from "../_components/Header";
+import Nav from "../_components/Nav";
+
+export default function EventsLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const pathname = usePathname();
+
+  const isEventPage =
+    pathname.startsWith("/events/") && pathname !== "/events";
+
+  const [navOpen, setNavOpen] = useState(false);
+
+  useEffect(() => {
+    setNavOpen(false); // auto-close on route change
+  }, [pathname]);
+
+  return (
+    <div className="relative h-screen overflow-hidden">
+      {/* HEADER */}
+      <Header
+        headerText="Speakeasy"
+        navOpen={navOpen}
+        toggleNav={() => setNavOpen(!navOpen)}
+      />
+
+      {/* NAV */}
+      {isEventPage && (
+        <div
+          className={`w-full h-full
+            transition-transform duration-500 ease-in-out
+            ${navOpen ? "translate-x-0" : "-translate-x-full"}
+          `}
+        >
+          <Nav />
+        </div>
+      )}
+
+      {/* PAGE CONTENT */}
+      <main className="pt-20 p-10">{children}</main>
+    </div>
+  );
+}

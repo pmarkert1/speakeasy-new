@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Nav from "./_components/Nav";
+import Header from "./_components/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,7 +30,7 @@ export default function RootLayout({
         style={{ backgroundImage: "url('/81DnkmWlKVL.jpg')" }}
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-blend-multiply`}
       >
-        <Nav />
+        <Header headerText="Speakeasy"/>
         {children}
       </body>
     </html>

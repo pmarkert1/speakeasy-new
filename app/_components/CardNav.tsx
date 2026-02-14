@@ -11,7 +11,7 @@ type CardType = {
 
 export default function Card({ href, eventTitle, imgSrc, imgAlt }: CardType) {
   return (
-    <Link href={href ?? "/"} className="w-full border-b text-white z-100 block pl-3 pt-5 pr-3 hover:bg-white/10">
+    <Link href={href ?? "/"} className="w-full border-b text-white z-100 block pl-3 pt-5 pr-3 transition-all ease-in-out hover:bg-white/20 cursor-cell">
       <span className="text-xl">{eventTitle}</span>
       {imgSrc && (
         <Image

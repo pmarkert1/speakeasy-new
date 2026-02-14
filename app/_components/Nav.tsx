@@ -1,21 +1,22 @@
 "use client";
 
 import Card from "./CardNav";
+import { events } from "@/lib/events";
 
-type NavType = {
-
-}
-
-export default function Nav(){
-    return(
-<nav className="w-full md:w-1/2 bg-black fixed h-full md:border-r z-30 overflow-scroll scroll-smooth">
-        <div id="nav-cards" className="mt-30">
-        <Card href="/" eventTitle="EVENT 1 - The titles are usually a bit longer" imgAlt="Alttext" imgSrc="https://placehold.co/800x1000/FFA07A/000000?text=Announcement+goes+here&font=papyrus"></Card>
-        <Card href="/" eventTitle="EVENT 1" imgAlt="Alttext" imgSrc="https://placehold.co/800x1000/FFA07A/000000?text=Announcement+goes+here&font=papyrus"></Card>
-        <Card href="/" eventTitle="EVENT 1" imgAlt="Alttext" imgSrc="https://placehold.co/800x1000/FFA07A/000000?text=Announcement+goes+here&font=papyrus"></Card>
-        <Card href="/" eventTitle="EVENT 1" imgAlt="Alttext" imgSrc="https://placehold.co/800x1000/FFA07A/000000?text=Announcement+goes+here&font=papyrus"></Card>
-        <Card href="/" eventTitle="EVENT 1" imgAlt="Alttext" imgSrc="https://placehold.co/800x1000/FFA07A/000000?text=Announcement+goes+here&font=papyrus"></Card>
-        </div>
-</nav>
- )
+export default function Nav() {
+  return (
+    <nav className="w-full md:w-1/2 bg-black fixed h-full md:border-r z-30 overflow-scroll scroll-smooth">
+      <div id="nav-cards" className="pt-10 space-y-6">
+        {events.map((event) => (
+          <Card
+            href={`/events/${event.slug}`}
+            key={event.slug}
+            eventTitle={event.title}
+            imgAlt={event.title}
+            imgSrc={event.poster}
+          />
+        ))}
+      </div>
+    </nav>
+  );
 }
