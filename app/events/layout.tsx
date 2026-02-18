@@ -4,7 +4,6 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import Header from "../_components/Header";
 import Nav from "../_components/Nav";
-import { events } from "@/lib/events";
 
 export default function EventsLayout({
   children,
@@ -31,7 +30,7 @@ export default function EventsLayout({
         toggleNav={() => setNavOpen(!navOpen)}
       />
 
-      {/* NAV */}
+      {/* NAV Drawer */}
       {isEventPage && (
         <div
           className={`fixed top-0 left-0 h-full w-full
@@ -45,7 +44,7 @@ export default function EventsLayout({
       )}
 
       {/* PAGE CONTENT */}
-      <main className="pt-20 p-10">{}</main>
+      <main className="pt-20 p-10">{children}</main>
     </div>
   );
 }
