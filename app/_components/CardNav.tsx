@@ -7,15 +7,17 @@ type CardType = {
   eventTitle: string;   
   imgSrc: string;
   imgAlt: string;
+  eventDate: string;
 };
 
-export default function Card({ href, eventTitle, imgSrc, imgAlt }: CardType) {
+export default function Card({ href, eventTitle, eventDate, imgSrc, imgAlt }: CardType) {
   return (
-    <Link href={href ?? "/"} className="w-full border-b text-white 
-                                        z-100 block pl-3 pt-5 pr-3 transition-all ease-in-out
+    <div className="grid grid-cols-2">
+    <Link href={href ?? "/"} className="z-100 pl-2 pt-5 pr-3 transition-all ease-in-out
                                         hover:bg-white/20 cursor-cell">
-      <span className="text-xl">{eventTitle}</span>
-      <span></span>
+      <span className="border-b">{eventTitle}</span><br/>
+      <span className="">{eventDate}</span>
+      </Link>
       {imgSrc && (
         <Image
           src={imgSrc}
@@ -25,6 +27,6 @@ export default function Card({ href, eventTitle, imgSrc, imgAlt }: CardType) {
           unoptimized
         />
       )}
-    </Link>
+    </div>
   );
 }

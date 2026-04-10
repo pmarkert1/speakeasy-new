@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import Nav from "./Nav";
+import Link from "next/link";
 
 type HeaderType = {
   headerText?: string;
@@ -22,32 +23,13 @@ export default function Header({
 
   return (
     <header
-      className="
-        fixed top-0 left-0
-        flex items-center justify-between
-        bg-black border-b border-white
-        border-r pl-3
-        z-50
-      "
+      className=""
     >
       {/* Title */}
-      <h1 className="text-2xl font-mono text-white cursor-cell pr-3">
+      <Link href="/">
+      <h1 className="text-2xl font-mono font-thin text-white cursor-cell ml-2">
         {headerText}
-      </h1>
-
-      {/* Hamburger Toggle */}
-      {isEventPage && (
-        <button
-          onClick={toggleNav}
-          className="
-            text-white text-2xl border-l
-            w-12 flex items-center justify-center
-            hover:bg-white/20 transition
-          "
-        >
-          {navOpen ? "✕" : "☰"}
-        </button>
-      )}
+      </h1></Link>
     </header>
   );
 }

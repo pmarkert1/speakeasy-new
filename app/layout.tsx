@@ -27,8 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        style={{ backgroundImage: "url('/81DnkmWlKVL.jpg')" }}
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-blend-multiply`}
+        className={`${geistSans.variable} ${geistMono.variable}`}
       >
         <Header headerText="Speakeasy"/>
         {children}
