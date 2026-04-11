@@ -23,7 +23,7 @@ export default function Header({
 
   return (
     <header
-      className=""
+      className="fixed"
     >
       {/* Title */}
       <Link href="/">

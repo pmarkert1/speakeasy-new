@@ -12,7 +12,7 @@ type CardType = {
 
 export default function Card({ href, eventTitle, eventDate, imgSrc, imgAlt }: CardType) {
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-1 md:grid-cols-2">
     <Link href={href ?? "/"} className="z-100 pl-2 pt-5 pr-3 transition-all ease-in-out
                                         hover:bg-white/20 cursor-cell">
       <span className="border-b">{eventTitle}</span><br/>
