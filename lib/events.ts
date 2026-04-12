@@ -11,7 +11,7 @@ export const events = [
 We want our kids to grow up in a world without Speakeasy, and we swear that we will never do it again.
 
 See you soon!`],
-    poster: "https://placehold.co/800x1000",
+    poster: "rip.png",
         images: [
     ]
   },
@@ -22,7 +22,7 @@ See you soon!`],
     date: "December 16, 2023",
     list:
       ["Dem jungen Gelehrten Philip Emmanuel Schlingler wird vom Arbeitsamt als Demütigung eine Stelle im Klärwerk zugewiesen. Dort wird er vom charmanten Klärwerksbesitzer Erbrecht von Bräunling mit offenen Armen willkommen geheißen. Obwohl ihm seine neue Stelle ein beinahe luxuriöses Dasein ermöglicht entwickelt er einen Verdacht gegen den Klärwerksleiter. Wird in der Anlage wirklich nur das Abwasser gereinigt? Was ist Bräunlings großer Plan? Hä… ist er doch nicht der freundliche Großerbe, den er quasi vorgegeben hat der gewesen zu sein!?"],
-    poster: "https://placehold.co/800x1000",
+    poster: "klaerwerk.png",
     images: [
       ""
     ]
@@ -44,7 +44,7 @@ Philip Markert
 
 `, `Night Manager:
 Christoph Wiedemann`],
-    poster: "https://placehold.co/800x1000",
+    poster: "neuemusik.png",
         images: [
       ""
     ]
@@ -100,7 +100,7 @@ You can sit with us – Die Morning Show
 Mit: Annabelle Agbo Godeau, Tobias Hohn, Kaya Pfaff
 `
 ],
-    poster: "https://placehold.co/800x1000",
+    poster: "hobbykeller.png",
         images: [
       ""
     ]
@@ -126,7 +126,7 @@ and Tobias Hohn as Freddy the dog.`,
 `Night Manager:
 the caricature of Christoph Wiedemann`
       ],
-    poster: "https://placehold.co/800x1000",
+    poster: "everythingweknow.png",
         images: [
       ""
     ]
@@ -146,7 +146,7 @@ Nisha Hadodo,
 Nil Zengin`, `works by:
 Johann Bech Jespersen,
 Aske Olsen`, `night manager: Christoph Wiedemann`],
-    poster: "https://placehold.co/800x1000",
+    poster: "desperateliving.png",
         images: [
       ""
     ]
@@ -163,7 +163,7 @@ Aske Olsen`, `night manager: Christoph Wiedemann`],
     `Listening Session:
 Ode to Stanislaw Petrow`
   ],
-    poster: "https://placehold.co/800x1000",
+    poster: "coldwar.png",
         images: [
       ""
     ]
@@ -179,7 +179,7 @@ Ode to Stanislaw Petrow`
 
 Honestly not so much to say here. Everyone was really drunk. 
 Shoutout to Philipp for the excellent bruschetti!`],
-    poster: "https://placehold.co/800x1000",
+    poster: "clubmed.jpg",
         images: [
       ""
     ]
@@ -224,7 +224,7 @@ Moritz Riesenbeck & Mona Schulzek`,
     `SFX:
 Max Mayer`,
   ],
-    poster: "https://placehold.co/800x1000",
+    poster: "the_beatuy_within 2.jpg",
         images: [
       ""
     ]
@@ -245,7 +245,7 @@ Max Mayer`,
     `Night Manager: Annabelle Agbo-Godeau`,
     `SFX: Philipp Naujoks`,
   ],
-    poster: "https://placehold.co/800x1000",
+    poster: "vapepflich.jpg",
         images: [
       ""
     ]
@@ -279,7 +279,7 @@ Annabelle Agbo-Godeau
 Tom König & Ramon Quenders`,
     `Pausenglocke: Hugo Bell`
   ],
-    poster: "https://placehold.co/800x1000",
+    poster: "gaensehaur.jpg",
         images: [
       ""
     ]
@@ -300,9 +300,9 @@ Tom König & Ramon Quenders`,
     `Night Manager: Christoph Wiedemann`,
     `Moderation: Achim & Faina`,
     `SFX: Lukas Brüggebusch & Jorge Loureiro`],
-    poster: "https://placehold.co/800x1000",
+    poster: "franzvonassisi.png",
         images: [
-      ""
+      "/03/000134.jpg", "/03/IMG_2265.jpg", "/03/IMG_2286.jpg", "/03/IMG_2288.jpg", "/03/000099.jpg",  "/03/IMG_2292.jpg", "/03/000133.jpg", "/03/IMG_2293.jpg", "/03/IMG_2296.jpg", "/03/IMG_2297.jpg"
     ]
   },
 
@@ -321,9 +321,9 @@ Tom König & Ramon Quenders`,
     `Moderation: Adonis Ademes`,
     `Artworks: Krebber/Städelschule Style paintings found on the street`,
     `Fart Sounds: Philip Markert & Jorge Loureiro`],
-    poster: "https://placehold.co/800x1000",
+    poster: "/lifeshard.png",
         images: [
-      ""
+      "/02/IMG_1906.jpg","/02/IMG_2100.jpg","/02/IMG_2087.jpg", "/02/IMG_2088.jpg", "/02/IMG_2089.jpg", "/02/IMG_2090.jpg", "/02/IMG_2091.jpg", "/02/IMG_2093.jpg", "/02/IMG_2094.jpg"
     ]
   },
 
@@ -341,7 +341,7 @@ Tom König & Ramon Quenders`,
     `,
     `Night Manager: Christoph Wiedemann`,
     `Moderation: Adonis Ademes`],
-    poster: "https://placehold.co/800x1000",
+    poster: "/wordsdontcomeeasy.png",
         images: [
       "/01/IMG_1918.jpg",
       "/01/IMG_2075 2.jpg",

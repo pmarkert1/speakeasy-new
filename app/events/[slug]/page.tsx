@@ -32,7 +32,7 @@ export default async function EventPage({ params }: { params: { slug: string } }
       </div>
 
                <Link href="#images"
-                className="sticky bottom-10 w-full md:hidden border-white bg-black text-center border-[0.5px]">
+                className="sticky bottom-10 w-full md:hidden border-white bg-amber-900 text-center border-[0.5px]">
                   Images
                 </Link>
 
