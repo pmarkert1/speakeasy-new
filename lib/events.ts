@@ -46,7 +46,12 @@ Philip Markert
 Christoph Wiedemann`],
     poster: "neuemusik.png",
         images: [
-      ""
+         "/12_musik/000001.jpg",
+    "/12_musik/000003.jpg",
+    "/12_musik/000010.jpg",
+    "/12_musik/000037.jpg",
+    "/12_musik/000067.jpg",
+    "/12_musik/000088.jpg",
     ]
   },
         {
@@ -102,7 +107,15 @@ Mit: Annabelle Agbo Godeau, Tobias Hohn, Kaya Pfaff
 ],
     poster: "hobbykeller.png",
         images: [
-      ""
+          "/11_keller/000007.jpg",
+    "/11_keller/000009.jpg",
+    "/11_keller/000014.jpg",
+    "/11_keller/000031.jpg",
+    "/11_keller/000078.jpg",
+    "/11_keller/000082.jpg",
+    "/11_keller/000118.jpg",
+    "/11_keller/000120.jpg",
+    "/11_keller/IMG_4601.JPG",
     ]
   },
 
@@ -128,7 +141,9 @@ the caricature of Christoph Wiedemann`
       ],
     poster: "everythingweknow.png",
         images: [
-      ""
+          "/10_everything/000047.jpg",
+    "/10_everything/000053.jpg",
+    "/10_everything/000130.jpg",
     ]
   },
 
@@ -148,7 +163,8 @@ Johann Bech Jespersen,
 Aske Olsen`, `night manager: Christoph Wiedemann`],
     poster: "desperateliving.png",
         images: [
-      ""
+          "/09_desperate/000072.jpg",
+    "/09_desperate/000094.jpg",
     ]
   },
   
@@ -165,7 +181,11 @@ Ode to Stanislaw Petrow`
   ],
     poster: "coldwar.png",
         images: [
-      ""
+          "/08_kalt/000005.jpg",
+    "/08_kalt/000006.jpg",
+    "/08_kalt/000060.jpg",
+    "/08_kalt/000097.jpg",
+    "/08_kalt/000098.jpg",
     ]
   },
 
@@ -181,7 +201,12 @@ Honestly not so much to say here. Everyone was really drunk.
 Shoutout to Philipp for the excellent bruschetti!`],
     poster: "clubmed.jpg",
         images: [
-      ""
+          "/07_med/000034.jpg",
+    "/07_med/000046.jpg",
+    "/07_med/000074.jpg",
+    "/07_med/000101.jpg",
+    "/07_med/000124.jpg",
+    "/07_med/IMG_6040.JPG",
     ]
   },
 
@@ -226,7 +251,12 @@ Max Mayer`,
   ],
     poster: "the_beatuy_within 2.jpg",
         images: [
-      ""
+          "/06_beauty/000036.jpg",
+    "/06_beauty/000109.jpg",
+    "/06_beauty/000116.jpg",
+    "/06_beauty/000121.jpg",
+    "/06_beauty/572C12C1-4B83-4563-B6AB-C118D4EEAF2D.jpg",
+    "/06_beauty/IMG_5669.JPG",
     ]
   },
 
@@ -247,7 +277,17 @@ Max Mayer`,
   ],
     poster: "vapepflich.jpg",
         images: [
-      ""
+          "/05_vape/000015.jpg",
+    "/05_vape/000019.jpg",
+    "/05_vape/000043.jpg",
+    "/05_vape/000048.jpg",
+    "/05_vape/000063.jpg",
+    "/05_vape/000071.jpg",
+    "/05_vape/000073.jpg",
+    "/05_vape/000079.jpg",
+    "/05_vape/000083.jpg",
+    "/05_vape/000085.jpg",
+    "/05_vape/IMG_9672.JPG",
     ]
   },
 
@@ -281,7 +321,10 @@ Tom König & Ramon Quenders`,
   ],
     poster: "gaensehaur.jpg",
         images: [
-      ""
+          "/04_gaense/000011.jpg",
+    "/04_gaense/000021.jpg",
+    "/04_gaense/000022.jpg",
+    "/04_gaense/000033.jpg",
     ]
   },
 
@@ -302,8 +345,19 @@ Tom König & Ramon Quenders`,
     `SFX: Lukas Brüggebusch & Jorge Loureiro`],
     poster: "franzvonassisi.png",
         images: [
-      "/03/000134.jpg", "/03/IMG_2265.jpg", "/03/IMG_2286.jpg", "/03/IMG_2288.jpg", "/03/000099.jpg",  "/03/IMG_2292.jpg", "/03/000133.jpg", "/03/IMG_2293.jpg", "/03/IMG_2296.jpg", "/03/IMG_2297.jpg"
-    ]
+    "/03_franz/000134.jpg",
+    "/03_franz/c5d24c61-9743-468a-824b-9f135cf20120.JPG",
+    "/03_franz/IMG_2265.jpg",
+    "/03_franz/IMG_2286.jpg",
+    "/03_franz/IMG_2288.jpg",
+                  "/03_franz/000099.jpg",
+    "/03_franz/000133.jpg",
+    "/03_franz/IMG_2292.jpg",
+    "/03_franz/IMG_2293.jpg",
+    "/03_franz/IMG_2296.jpg",
+    "/03_franz/IMG_2297.jpg",
+    "/03_franz/IMG_2299.JPG",
+        ]
   },
 
     {
@@ -323,7 +377,17 @@ Tom König & Ramon Quenders`,
     `Fart Sounds: Philip Markert & Jorge Loureiro`],
     poster: "/lifeshard.png",
         images: [
-      "/02/IMG_1906.jpg","/02/IMG_2100.jpg","/02/IMG_2087.jpg", "/02/IMG_2088.jpg", "/02/IMG_2089.jpg", "/02/IMG_2090.jpg", "/02/IMG_2091.jpg", "/02/IMG_2093.jpg", "/02/IMG_2094.jpg"
+    "/02_life/000056.jpg",
+    "/02_life/000070.jpg",
+    "/02_life/IMG_1906.jpg",
+    "/02_life/IMG_2087.jpg",
+    "/02_life/IMG_2088.jpg",
+    "/02_life/IMG_2089.jpg",
+    "/02_life/IMG_2090.jpg",
+    "/02_life/IMG_2091.jpg",
+    "/02_life/IMG_2093.jpg",
+    "/02_life/IMG_2094.jpg",
+    "/02_life/IMG_2100.jpg",
     ]
   },
 
@@ -342,15 +406,16 @@ Tom König & Ramon Quenders`,
     `Night Manager: Christoph Wiedemann`,
     `Moderation: Adonis Ademes`],
     poster: "/wordsdontcomeeasy.png",
-        images: [
-      "/01/IMG_1918.jpg",
-      "/01/IMG_2075 2.jpg",
-      "/01/IMG_2076.jpg",
-      "/01/IMG_2077.jpg", 
-      "/01/IMG_2078.jpg", 
-      "/01/IMG_2079.jpg", 
-      "/01/IMG_2080.jpg", 
-      "/01/IMG_2083.jpg"
-    ]
+  images: [
+    "/01_words/000069.jpg",
+    "/01_words/IMG_1918.jpg",
+    "/01_words/IMG_2075 2.jpg",
+    "/01_words/IMG_2076.jpg",
+    "/01_words/IMG_2077.jpg",
+    "/01_words/IMG_2078.jpg",
+    "/01_words/IMG_2079.jpg",
+    "/01_words/IMG_2080.jpg",
+    "/01_words/IMG_2083.jpg",
+  ]
   },
 ];
