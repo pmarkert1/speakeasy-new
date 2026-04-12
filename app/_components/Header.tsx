@@ -26,8 +26,8 @@ export default function Header({
       className="fixed"
     >
       {/* Title */}
-      <Link href="/">
-      <h1 className="text-2xl font-mono font-thin text-white cursor-cell ml-2 background-blend-difference">
+      <Link href="/" className="z-1000">
+      <h1 className="text-2xl font-mono font-thin text-white cursor-cell ml-2 background-blend-difference z-1000">
         {headerText}
       </h1></Link>
     </header>
