@@ -12,7 +12,7 @@ We want our kids to grow up in a world without Speakeasy, and we swear that we w
 
 See you soon!`],
     poster: "rip.png",
-        images: [
+        images: ["/14_rip/IMG_5322.jpg","/14_rip/IMG_5334.jpg","/14_rip/IMG_5336.jpg","/14_rip/IMG_5338.jpg","/14_rip/IMG_5339.jpg","/14_rip/IMG_5340.jpg","/14_rip/IMG_5341.jpg","/14_rip/IMG_5342.jpg","/14_rip/IMG_5343.jpg","/14_rip/IMG_5344.jpg","/14_rip/IMG_5346.jpg","/14_rip/IMG_5348.jpg"
     ]
   },
 
