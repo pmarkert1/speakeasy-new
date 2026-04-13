@@ -12,10 +12,10 @@ export default async function EventPage({ params }: { params: { slug: string } }
   if (!event) return notFound();
 
   return (
-    <div className="font-mono h-screen md:fixed font-thin mx-auto space-y-6 text-white grid grid-cols-1 md:grid-cols-2 pr-2">
+    <div className="font-mono h-screen md:fixed font-thin mx-auto space-y-6 text-white grid grid-cols-1 md:grid-cols-2 pr-2 scroll-smooth">
      
                  {/*Left Col*/}
-      <div className="md:sticky md:w-[90%] md:overflow-y-scroll md:h-screen whitespace-pre-line scroll-smooth pb-25">
+      <div className="md:sticky md:w-[90%] md:overflow-y-scroll md:h-screen whitespace-pre-line pb-25">
       <h1 className="text-2xl">{event.title}</h1><br/>
       <p className="text-white/60">{event.date}</p><br/>
       <div className="relative">
@@ -31,7 +31,7 @@ export default async function EventPage({ params }: { params: { slug: string } }
       </div>
       </div>
                <Link href="#images"
-                className="sticky bottom-10 w-full md:hidden border-white bg-black text-center border-[0.5px]">
+                className="sticky bottom-10 w-full md:hidden border-white bg-amber-900 text-center border-[0.5px]">
                   Images
                 </Link>
 
