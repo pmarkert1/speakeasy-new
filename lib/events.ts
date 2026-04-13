@@ -3,7 +3,7 @@
 export const events = [
 
         {
-    slug: "event-1",
+    slug: "rip",
     title: "Ich möchte dass meine Kinder in einer Welt ohne SPEAKEASY aufwachsen können.",
     date: "January 4, 2024",
     list: [`We kindly request your presence at the official burial ceremony of Speakeasy. Friday, January 5th 2024, from 6 to 8pm, you will have the chance to say goodbye, enjoy a final drink at the bar, and share both the good and bad memories.
@@ -17,7 +17,7 @@ See you soon!`],
   },
 
         {
-    slug: "event-2",
+    slug: "klaerwerksfilm",
     title: `Speakeasy and Film Länder International Preis present the premiere screening of "KLÄRWERKSWERKSFILM" (Zum ersten Mal)`,
     date: "December 16, 2023",
     list:
@@ -34,7 +34,7 @@ See you soon!`],
   },
 
       {
-    slug: "event-3",
+    slug: "musik",
     title: "Neue Musik & Altes Geld",
     date: "November 15, 2023",
     list:
@@ -60,7 +60,7 @@ Christoph Wiedemann`],
     ]
   },
         {
-    slug: "event-4",
+    slug: "hobbykeller",
     title: "Der Kritische Hobbykeller",
     date: "September 30 - October 1, 2023",
     list:
@@ -125,7 +125,7 @@ Mit: Annabelle Agbo Godeau, Tobias Hohn, Kaya Pfaff
   },
 
     {
-    slug: "event-5",
+    slug: "everything",
     title: "Everything we know",
     date: "July 14, 2023",
     list:
@@ -153,7 +153,7 @@ the caricature of Christoph Wiedemann`
   },
 
   {
-    slug: "event-6",
+    slug: "desperateliving",
     title: "Desperate Living",
     date: "June 17, 2023",
     list:
@@ -174,7 +174,7 @@ Aske Olsen`, `night manager: Christoph Wiedemann`],
   },
   
   {
-    slug: "event-7",
+    slug: "coldwar",
     title: "Der Kalte Krieg – ein bisschen aufgewärmt",
     date: "May 24, 2023",
     list:
@@ -195,7 +195,7 @@ Ode to Stanislaw Petrow`
   },
 
   {
-    slug: "event-8",
+    slug: "clubmed",
     title: "Σρεακεαζγ - Club Med",
     date: "May 2, 2023",
     list:
@@ -216,7 +216,7 @@ Shoutout to Philipp for the excellent bruschetti!`],
   },
 
   {
-    slug: "event-9",
+    slug: "beauty",
     title: "Speakeasy — The Beauty Within",
     date: "March 30, 2023",
     list:
@@ -288,7 +288,7 @@ Max Mayer`,
   },
 
   {
-    slug: "event-10",
+    slug: "vape",
     title: "Die Wiedereinführung der Vapepflicht im Speakeasy",
     date: "March 11, 2023",
     list:
@@ -319,7 +319,7 @@ Max Mayer`,
   },
 
     {
-    slug: "event-11",
+    slug: "gaensehaut",
     title: "Gänsehaut Feeling Poor im Speakeasy",
     date: "February 11, 2023",
     list:
@@ -356,7 +356,7 @@ Tom König & Ramon Quenders`,
   },
 
     {
-    slug: "event-12",
+    slug: "franz",
     title: `Franz von Assisi: "Speakeasy"`,
     date: "January 28, 2023",
     list:
@@ -388,7 +388,7 @@ Tom König & Ramon Quenders`,
   },
 
     {
-    slug: "event-13",
+    slug: "life",
     title: "Life's hard, Speakeasy",
     date: "January 13, 2023",
     list:
@@ -419,7 +419,7 @@ Tom König & Ramon Quenders`,
   },
 
     {
-    slug: "event-14",
+    slug: "words",
     title: "If words dont't come easy, Speakeasy",
     date: "December 18, 2022",
     list:

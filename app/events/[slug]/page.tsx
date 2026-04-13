@@ -15,7 +15,7 @@ export default async function EventPage({ params }: { params: { slug: string } }
     <div className="font-mono h-screen md:fixed font-thin mx-auto space-y-6 text-white grid grid-cols-1 md:grid-cols-2 pr-2">
      
                  {/*Left Col*/}
-      <div className="md:sticky md:w-[90%] md:overflow-y-scroll md:h-screen scroll-smooth">
+      <div className="md:sticky md:w-[90%] md:overflow-y-scroll md:h-screen whitespace-pre-line scroll-smooth">
       <h1 className="text-2xl">{event.title}</h1><br/>
       <p className="text-white/60">{event.date}</p><br/>
       <div className="relative">
