@@ -36,7 +36,7 @@ export default async function EventPage({ params }: { params: { slug: string } }
                 </Link>
 
             {/*Right Col*/}
-            <div className="md:sticky md:overflow-y-scroll md:h-screen flex flex-col gap-3" id="images">
+            <div className="md:sticky md:overflow-y-scroll md:min-h-screen flex flex-col gap-3" id="images">
               {event.images.map((img, index) => (
                 <div key={index} className="border-[0.5px] border-white">
                   <Image
