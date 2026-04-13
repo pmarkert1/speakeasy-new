@@ -279,7 +279,11 @@ Max Mayer`,
     "/06_beauty/IMG_3573.JPG",
     "/06_beauty/IMG_3574.JPG",
     "/06_beauty/IMG_3575.JPG",
-    "/06_beauty/IMG_3576.JPG"
+    "/06_beauty/IMG_3576.JPG",
+    "/06_beauty/IMG_2765.jpg",
+    "/06_beauty/IMG_3556.jpg", 
+    "/06_beauty/IMG_3557.jpg", 
+    "/06_beauty/IMG_3589 2.jpg"
     ]
   },
 
