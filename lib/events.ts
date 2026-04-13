@@ -24,7 +24,12 @@ See you soon!`],
       ["Dem jungen Gelehrten Philip Emmanuel Schlingler wird vom Arbeitsamt als Demütigung eine Stelle im Klärwerk zugewiesen. Dort wird er vom charmanten Klärwerksbesitzer Erbrecht von Bräunling mit offenen Armen willkommen geheißen. Obwohl ihm seine neue Stelle ein beinahe luxuriöses Dasein ermöglicht entwickelt er einen Verdacht gegen den Klärwerksleiter. Wird in der Anlage wirklich nur das Abwasser gereinigt? Was ist Bräunlings großer Plan? Hä… ist er doch nicht der freundliche Großerbe, den er quasi vorgegeben hat der gewesen zu sein!?"],
     poster: "klaerwerk.png",
     images: [
-      ""
+      "/13_klaerwerk/photo_2024-01-04_13-54-10.jpg",
+      "/13_klaerwerk/photo_2024-01-04_13-54-20.jpg",
+      "/13_klaerwerk/photo_2024-01-04_13-54-25.jpg", 
+      "/13_klaerwerk/photo_2024-01-04_13-54-28.jpg", 
+      "/13_klaerwerk/photo_2024-01-04_13-54-32.jpg",
+      "/13_klaerwerk/photo_2024-01-04_13-54-37.jpg"
     ]
   },
 
